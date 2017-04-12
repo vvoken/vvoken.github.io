@@ -214,18 +214,19 @@
 }
 
 @media (min-width: 1901px) {
+ .home {
+ height: 450px;
+}
 .container {
 width: 90%;
 margin: 0 auto;
 }
-
-.examples a:first-child {
-display: none;
+.services {
+margin: 0 auto;
+height: auto;
 }
-
-.examples .big-size {
-display: block;
-}
+.examples a:first-child {display: none;}
+.examples .big-size {display: block;}
 
 .examples:nth-child(3), 
 .examples:nth-child(6) {
