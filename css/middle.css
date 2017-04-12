@@ -212,3 +212,23 @@
 		}
 
 }
+
+@media (min-width: 1901px) {
+.container {
+width: 90%;
+margin: 0 auto;
+}
+
+.examples a:first-child {
+display: none;
+}
+
+.examples .big-size {
+display: block;
+}
+
+.examples:nth-child(3), 
+.examples:nth-child(6) {
+margin-right: 0;
+}
+}
