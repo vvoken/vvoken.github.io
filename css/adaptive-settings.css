@@ -4,6 +4,11 @@
 		box-sizing: border-box; 
 	}
 
+	.container {
+		width: 100%;
+		margin: 0 auto;
+	}
+
 	#wrapper {
 		width: 100%;
 		overflow-x: hidden;
@@ -125,7 +130,7 @@
 	}
 
 	.block-header {
-		font-size: 30px;
+		font-size: 25px;
 	}
 
 	.block-desc {
@@ -134,6 +139,15 @@
 		padding-bottom: 5px;
 		/*padding-bottom: 35px;*/
 	}
+
+	.item-header {
+		font-size: 18px;
+	}
+
+	.item-desc {
+    	font-size: 13px;
+    }
+
 
 	.item {
     	display: inline-block;
@@ -146,6 +160,8 @@
     .item:last-child {
     	padding-right: 0;
     }
+
+    
 
     /*portfolio-block*/
 
@@ -179,7 +195,7 @@
 
 	.about {
     	padding-top: 90px;
-    	padding-bottom: 50px;
+    	padding-bottom: 90px;
 	}
 
 	.reviews-item {
@@ -204,7 +220,7 @@
 
 	.review-desc {
 		text-align: center;
-		font-size: 15px;
+		font-size: 13px;
 	}
 
 	/*.last { 
@@ -241,7 +257,7 @@
 	}
 
 	.link-btn {
-		margin-top: 15px;
+		margin-top: 50px;
 	}
 
 	/*team-block*/
@@ -255,8 +271,7 @@
 	}
 
 	.final-text p {
-		font-size: 15px;
-		font-family: 'Arial', sans-serif;
+		font-size: 15px; 
 		padding-top: 10px;
 	}
 
@@ -317,14 +332,12 @@
 	textarea {
   		text-transform: uppercase;
   		color: #bbbbbb;
-  		font-size: 15px;
-  		font-family: 'Arial', sans-serif; 
+  		font-size: 13px; 
   		padding: 10px 18px;
   		margin-bottom: 25px;
 	}
 
-	input[type="submit"] {
-		font-family: 'Arial', sans-serif;
+	input[type="submit"] { 
 		font-size: 16px;
 		text-transform: uppercase; 
 		color: #fff; 
@@ -347,7 +360,7 @@
 	/*footer-block*/
 	.copy {
 		display: inline-block;
-		width: 45%;
+		width: 46%;
 		padding: 15px 5px 15px 10px;
 	}
 
@@ -455,6 +468,11 @@
 
 	.header {
 		padding: 0;
+	}
+
+	.container {
+		width: 100%;
+		margin: 0 auto;
 	}
 
 	.home {
@@ -698,6 +716,11 @@
     padding-top: 10px; 
 	}
 
+	.team-photo {
+		width: 200px;
+		height: 200px;
+	}
+
 	.team-item {
 		width: 100%;
 		padding-top: 30px;
@@ -708,8 +731,7 @@
 	}
 
 	.final-text p {
-		font-size: 17px;
-		font-family: 'Arial', sans-serif;
+		font-size: 17px; 
 		padding-top: 10px;
 	}
 
@@ -774,14 +796,12 @@
 	textarea {
   		text-transform: uppercase;
   		color: #bbbbbb;
-  		font-size: 15px;
-  		font-family: 'Arial', sans-serif; 
+  		font-size: 15px; 
   		padding: 10px 18px;
   		margin-bottom: 25px;
 	}
 
-	input[type="submit"] {
-		font-family: 'Arial', sans-serif;
+	input[type="submit"] { 
 		font-size: 16px;
 		text-transform: uppercase; 
 		color: #fff; 
@@ -1116,8 +1136,7 @@
 	}
 
 	.final-text p {
-		font-size: 17px;
-		font-family: 'Arial', sans-serif;
+		font-size: 17px; 
 		padding-top: 10px;
 	}
 
@@ -1182,14 +1201,12 @@
 	textarea {
   		text-transform: uppercase;
   		color: #bbbbbb;
-  		font-size: 15px;
-  		font-family: 'Arial', sans-serif; 
+  		font-size: 15px; 
   		padding: 10px 18px;
   		margin-bottom: 25px;
 	}
 
-	input[type="submit"] {
-		font-family: 'Arial', sans-serif;
+	input[type="submit"] { 
 		font-size: 16px;
 		text-transform: uppercase; 
 		color: #fff; 
@@ -1212,7 +1229,7 @@
 	/*footer-block*/
 	.copy {
 		display: inline-block;
-		width: 45%;
+		width: 50%;
 		padding: 20px 5px 20px 10px;
 	}
 
@@ -1529,8 +1546,7 @@
 	}
 
 	.final-text p {
-		font-size: 17px;
-		font-family: 'Arial', sans-serif;
+		font-size: 17px; 
 		padding-top: 10px;
 	}
 
@@ -1595,14 +1611,12 @@
 	textarea {
   		text-transform: uppercase;
   		color: #bbbbbb;
-  		font-size: 15px;
-  		font-family: 'Arial', sans-serif; 
+  		font-size: 15px; 
   		padding: 10px 18px;
   		margin-bottom: 25px;
 	}
 
-	input[type="submit"] {
-		font-family: 'Arial', sans-serif;
+	input[type="submit"] { 
 		font-size: 16px;
 		text-transform: uppercase; 
 		color: #fff; 
@@ -1790,8 +1804,9 @@
 	/*services-block*/
 
 	.services {
-		padding-top: 70px;/*
-		height: 100%;*/
+		padding-top: 70px;
+		padding-bottom: 70px;
+		height: auto;
 	}
 
 	.services-items {
@@ -1893,7 +1908,7 @@
 	.review-desc {
 		padding: 15px;
 		text-align: center;
-		font-size: 17px;
+		font-size: 15px;
 	}
 
 	/*.last { 
@@ -1951,8 +1966,7 @@
 	}
 
 	.final-text p {
-		font-size: 17px;
-		font-family: 'Arial', sans-serif;
+		font-size: 17px; 
 		padding-top: 10px;
 	}
 
@@ -2007,14 +2021,12 @@
 	textarea {
   		text-transform: uppercase;
   		color: #bbbbbb;
-  		font-size: 15px;
-  		font-family: 'Arial', sans-serif; 
+  		font-size: 15px; 
   		padding: 10px 18px;
   		margin-bottom: 25px;
 	}
 
-	input[type="submit"] {
-		font-family: 'Arial', sans-serif;
+	input[type="submit"] { 
 		font-size: 16px;
 		text-transform: uppercase; 
 		color: #fff; 
@@ -2186,7 +2198,7 @@
 
 	.item {
 		width: 28%;
-		margin-top: 30px;
+		/*margin-top: 30px;*/
 	}
 
 
@@ -2222,7 +2234,7 @@
 	}
 
 	.final-text p {
-		font-size: 20px;
+		font-size: 17px;
 		padding-top: 20px;
 	}
 
@@ -2244,6 +2256,10 @@
 
 	.contacts-desc {
 		margin-bottom: 30px;
+	}
+
+	.message-form {
+		height: 180px;
 	}
 
 	.copy {

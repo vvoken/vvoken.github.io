@@ -57,7 +57,18 @@
 
 	.block-desc {
 		padding-top: 25px;
+		padding-bottom: 50px;
 		font-size: 18px;
+	}
+
+	/*ширина блока с преимуществами*/
+	.services {
+		height: auto;
+	}
+
+	.services-items {
+		width: 90%;
+    	margin: 0 auto;
 	}
 
 	.item-header {
@@ -69,8 +80,7 @@
 	}
 
 	.item {
-		width: 28%;
-		margin-top: 30px;
+		width: 28%; 
 	}
 
 	.item img {
@@ -91,6 +101,11 @@
 		margin-right: 0;
 	}
 
+
+	.reviews-block {
+    	width: 85%;
+    	margin: 0 auto;
+	}
 
 	.text-right {
 		padding-left: 20px;
@@ -175,10 +190,8 @@
 
 }
 
-
-
-
-/*@media (min-width: 1600px) and (max-width: 1900px) {
+ 
+@media (min-width: 1600px) and (max-width: 1900px) {
 
 		.container {
 			width: 90%;
@@ -198,4 +211,4 @@
 			margin-right: 0;
 		}
 
-}*/
+}
