@@ -802,6 +802,7 @@ input[type="submit"] {
 /*tell me more - settings*/
 
 .more-contact {
+	position: relative;
 	margin: 10% auto;
 	width: 250px; 
 	background: #aeaeae url(../img/map-bg.jpg) no-repeat center center;
@@ -812,6 +813,16 @@ input[type="submit"] {
 	text-align: center;
 	padding: 30px;
 	box-shadow: 0 0 5px 2px rgba(255, 255, 255, 1);
+}
+
+.more-contact a {
+	position: relative;
+    top: -20px;
+    left: 135px;
+}
+
+.more-contact a img {
+	width: 10%;
 }
 
 label {
@@ -841,11 +852,54 @@ label {
 	color: #fff; 
 }
 
+
+
 .private {
 	display: none;
 }
 
+.private {
+	margin-top: 50px;
+	display: inline-block;
+} 
+
+.private h5 {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 600;
+	color: #fff;
+	padding: 20px 0; 
+} 
+
+.private-list {
+	list-style-type: circle;
+	text-align: left;
+}
+
+.private-list li { 
+	font-size: 22px;
+	color:#fff;
+	padding-top: 15px;
+}
+
+.private-list p {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 22px;
+}
+
+.privat ul {
+	list-style-type: circle; 
+}
+
+.more-btn {
+	padding: 15px 70px;
+	border-radius: 5px;  
+}
+  
 .more-contact-big {
+	font-family: 'Open Sans', sans-serif;
 	display: none;
 	 margin: 10% auto;
 	width: 45%;
@@ -859,5 +913,30 @@ label {
 	padding: 30px;
 	box-shadow: 0 0 5px 2px rgba(255, 255, 255, 1);
 
+}
+
+.more-contact-big a {
+    position: relative;
+    top: -13px;
+    left: 50%;
+}
+
+.more-contact-big h4 {
+	color: #fff;
+	font-weight: 400;
+	font-size: 25px;
+}
+
+.more-contact-big h4 span {
+	font-weight: 600;
+	border-bottom: 2px solid #F8CC35;
+}
+
+.more-contact-big a img {
+	width: 4%;
+}
+
+.big-screen-form {
+	padding-top: 10px;
 }
 

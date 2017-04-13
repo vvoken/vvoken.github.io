@@ -1,6 +1,4 @@
-@media (min-width: 780px) and (max-width: 1024px) {
-
-
+@media (min-width: 780px) and (max-width: 1024px) { 
 	html {
 		box-sizing: border-box;  
 	}
@@ -160,8 +158,7 @@
 		width: 80%;
 		line-height: 25px;
 		text-align: center;
-		float: none; 
-		/*padding-bottom: 25px;*/
+		float: none;  
 	}
 
 	.review-header { 
@@ -174,11 +171,7 @@
 		padding: 15px;
 		text-align: center;
 		font-size: 15px;
-	}
-
-	/*.last { 
-		display: none;
-	}*/
+	} 
 
 	.review-photo { 
 		width: 100%;
@@ -216,10 +209,10 @@
 	/*team-block*/
 
 	.team-header {  
-    font-size: 18px;
-    line-height: 23px;
-    padding-top: 10px; 
-	}
+	    font-size: 18px;
+	    line-height: 23px;
+	    padding-top: 10px; 
+		}
 
 	.team-item {
 		width: 32%;
@@ -380,9 +373,67 @@
 
 	/*Всплывающие окна*/
 	.more-contact {
-		width: 200px;
-		border: none;
-		border-radius: none: 
+		display: none; 
+	}
+
+	.more-contact-big {
+		display: block;
+		width: 50%;
+	}
+
+	.private {
+		display: block;
+		text-align: center;
+	}
+
+	.private h5 {
+		font-size: 12px;
+	}
+
+	.private-list p {
+		font-size: 11px; 
+	}
+
+	.private ul {
+		list-style-type: none;
+	}
+
+	.private-list {
+		text-align: center;
+	}
+
+	.more-contact-big a {
+    position: relative;
+    top: -13px; 
+	}
+
+	.more-contact-big h4 { 
+		font-size: 12px;
+	}
+
+	.more-contact-big h4 span { 
+		font-weight: 600;
+		border-bottom: 2px solid #F8CC35;
+	}
+
+	.more-contact-big a img {
+		width: 5%;
+	}
+
+	.big-screen-form {
+		padding-top: 35px;
+	}
+
+
+	.more-contact-big form input[type="text"], 
+	input[type="tel"] {
+		width: 65%;
+		font-size: 18px;
+	}
+
+	input[type="submit"] {
+		font-size: 15px;
+		letter-spacing: 3px;
 	}
 
 	.thn {
@@ -404,10 +455,11 @@
 	}
 
 	.feedback-close {
-    	left: 120px;
-    	top: -57px;
-    }
+		left: 120px;
+		top: -57px;
+	} 
 }
+
 
 @media (min-width: 1024px) and (max-width: 1200px) {
 
@@ -543,6 +595,49 @@
 
 	/*modal-window-settings*/
 
+	.more-contact {
+		display: none;
+	}
+
+	.more-contact-big {
+		display: block;
+		margin: 8% auto;
+	}
+
+	.more-contact-big h4 {
+		font-size: 15px;
+	} 
+
+	.big-screen-form {
+		padding-top: 30px;
+	}
+
+	.private {
+		display: block;
+	}
+
+	.private h5 {
+		font-size: 15px;
+	}
+
+	.private-list p {
+		font-size: 12px;
+	}
+
+	.private-list li {
+		font-size: 10px;
+	}
+
+	.big-screen-form input[type="text"], 
+	input[type="tel"] {
+		width: 65%;
+		font-size: 15px;
+	}
+
+	input[type="submit"] {
+		font-size: 15px; 
+	}  
+
 	.modal-our-social-links {
 		margin-top: 10px;
 		
@@ -659,6 +754,14 @@
 		margin-right: 0;
 	}
 
+	.examples a:first-child{
+		display: none;
+	}
+
+	.examples .big-size {
+		display: block;
+	}
+
 
 	.reviews-block {
     	width: 85%;
@@ -726,25 +829,59 @@
 
 	.feed-btn {
 		padding: 15px 30px; 
-	}
-
-
-
+	} 
 
 	/*modal-window-settings*/
 
+	.more-contact {
+		display: none;
+	}
+
+	.more-contact-big {
+		display: block;
+		margin: 5% auto;
+	}
+
+	.more-contact-big h4 {
+		font-size: 15px;
+	} 
+
+	.big-screen-form {
+		padding-top: 30px;
+	}
+
+	.private {
+		display: block;
+	}
+
+	.private h5 {
+		font-size: 15px;
+	}
+
+	.private-list p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.private-list li {
+		font-size: 10px;
+	}
+
+	.big-screen-form input[type="text"], 
+	input[type="tel"] {
+		width: 65%;
+		font-size: 15px;
+	}
+
+	input[type="submit"] {
+		font-size: 15px; 
+	}  
+	
 	.modal-our-social-links {
 		margin-top: 10px;
 		
 	}
- 
-	.examples a:first-child{
-		display: none;
-	}
-
-	.examples .big-size {
-		display: block;
-	}
+  
 }
 
 @media (min-width: 1600px) and (max-width: 1900px) {
@@ -755,8 +892,8 @@
 		}
 
 		.home {
-			height: 400px;
-			padding-top: 300px;
+			height: 50vh;
+			padding-top: 29%;
 		}
 
 		.logo {
@@ -776,6 +913,7 @@
 		}
 
 		.welcome {
+			padding-top: 0;
 			font-size: 45px;
 		}
 
@@ -936,12 +1074,104 @@
 		/*Pop up*/
 
 		.more-contact {
-			width: 500px;
+			display: none;
+		}
+
+		.more-contact-big {
+			position: relative;
+			display: block; 
+			text-align: center;
+			margin: 6% auto;
+		}
+		/*кнопка закрытия окна*/
+		.more-contact-big a {
+    		position: relative;
+    		top: -13px;
+    		left: 50%;
+		}
+
+		.more-contact-big h4 {
+			color: #fff;
+			font-weight: 400;
+			font-size: 25px;
+
+		}
+
+		.more-contact-big h4 span {
+			font-weight: 600;
+			border-bottom: 2px solid #F8CC35;
+		}
+
+		.more-contact-big a img {
+			width: 4%;
+		}
+
+		.big-screen-form {
+			padding-top: 10px;
+		}
+		/*кнопка закрытия окна*/		
+
+		.big-screen-form {
+			margin-top: 50px;
+		}
+
+		.private {
+			margin-top: 50px;
+			display: inline-block;
 		} 
+
+		.private h5 {
+			font-family: 'Open Sans', sans-serif;
+			text-transform: uppercase;
+			font-size: 25px;
+			font-weight: 600;
+			color: #fff;
+			padding: 20px 0; 
+		} 
+
+		.private-list {
+			list-style-type: circle;
+			text-align: left;
+		}
+
+		.private-list li { 
+			font-size: 22px;
+			color:#fff;
+			padding-top: 15px;
+		}
+
+		.private-list p {
+			font-family: 'Open Sans', sans-serif;
+			color: #fff;
+			font-size: 22px;
+			line-height: 28px;
+		}
+
+		.privat ul {
+			list-style-type: circle; 
+		}
+
 		.more-btn {
-			padding: 16px 70px;
-		} 
-}		
+			padding: 15px 70px;
+			border-radius: 5px;  
+		}
+ 
+
+		.more-contact-big form input[type="text"], 
+		input[type="tel"] {
+			width: 50%;
+			font-size: 20px;
+		}
+
+		input[type="submit"] {
+			font-size: 25px;
+			letter-spacing: 3px;
+		}
+
+		.modal-our-social-links {
+		margin-top: 20px;
+		
+}  
 
 @media (min-width: 1901px) {
 
@@ -979,21 +1209,21 @@
 		font-size: 23px;
 	}
 
-		.menu li {
-			margin-right: 60px;
-		}
+	.menu li {
+		margin-right: 60px;
+	}
 
-		.welcome {
-			font-size: 50px;
-			padding-bottom: 55px;
-		}
+	.welcome {
+		font-size: 50px;
+		padding-bottom: 55px;
+	}
 
-		.home-header {
-			font-size: 90px;
-			padding-bottom: 175px;
-		}
+	.home-header {
+		font-size: 90px;
+		padding-bottom: 175px;
+	}
 
-		/*Home screen block - settings END*/
+	/*Home screen block - settings END*/
 
 	.header-btn {
 		padding: 30px 62px;
@@ -1069,157 +1299,169 @@
 		display: block;
 	}
 
-		 .wide-size img {
-		 	width: 520px;
-		 	height: 431px;
-		 }
+	 .wide-size img {
+	 	width: 520px;
+	 	height: 431px;
+	 }
 
-		.examples a:first-child {
-			display: none;
-		}
+	.examples a:first-child {
+		display: none;
+	}
 
-		.examples .big-size {
-			display: block;
-		}
+	.examples .big-size {
+		display: block;
+	}
 
-		.examples:nth-child(3), 
-		.examples:nth-child(6) {
-			margin-right: 0;
-		}
+	.examples:nth-child(3), 
+	.examples:nth-child(6) {
+		margin-right: 0;
+	}
 
-		/*Portfolio block - settings END*/
+	/*Portfolio block - settings END*/
 
-		/*Review block - settings*/
+	/*Review block - settings*/
 
-		.review-header {
-			font-size: 25px;
-			line-height: 37px;
-		}
+	.review-header {
+		font-size: 25px;
+		line-height: 37px;
+	}
 
-		.review-desc {
-			font-size: 23px;
-			line-height: 30px;
-			padding-top: 14px;
-		}
+	.review-desc {
+		font-size: 23px;
+		line-height: 30px;
+		padding-top: 14px;
+	}
 
-		.review-photo img {
-			width: 226px;
-    		height: 225px;
-		}
+	.review-photo img {
+		width: 226px;
+		height: 225px;
+	}
 
-		.link-btn {
-			font-size: 30px;
-			line-height: 39px;
-		}
+	.link-btn {
+		font-size: 30px;
+		line-height: 39px;
+	}
 
-		/*Review block - settings END*/
+	/*Review block - settings END*/
 
-		/*Team block - settings*/
-		.team-photo {
-			border: 8px solid #f1f1f1;
-			width: 305px;
-			height: 305px;
-		}
+	/*Team block - settings*/
+	.team-photo {
+		border: 8px solid #f1f1f1;
+		width: 305px;
+		height: 305px;
+	}
 
-		.team-header {
-			font-size: 27px;
-			line-height: 45px;
-		}
+	.team-header {
+		font-size: 27px;
+		line-height: 45px;
+	}
 
-		.team-desc {
-			font-size: 22px;
-			line-height: 33px;
-		}
-
-
-		.final-text p {
-			font-size: 22px;
-			line-height: 30px;
-			padding-top: 30px;
-		}
-
-		/*Team block - settings END*/
+	.team-desc {
+		font-size: 22px;
+		line-height: 33px;
+	}
 
 
-		/*footer block - settings*/
-		.copy {  
-			margin-right: 120px;
-		}
+	.final-text p {
+		font-size: 22px;
+		line-height: 30px;
+		padding-top: 30px;
+	}
 
-		.copy span {
-			font-size: 22px;
-		}
+	/*Team block - settings END*/
 
-		/*footer block - settings END*/ 
 
-		.more-contact {
-			display: none;
-		} 
+	/*footer block - settings*/
+	.copy {  
+		margin-right: 120px;
+	}
 
-		.more-contact-big {
-			display: block; 
-			text-align: center;
-		}
+	.copy span {
+		font-size: 22px;
+	}
 
-		.big-screen-form {
-			margin-top: 50px;
-		}
+	/*footer block - settings END*/ 
 
-		.private {
-			margin-top: 50px;
-			display: inline-block;
-		} 
+	.more-contact {
+		display: none;
+	} 
 
-		.private h5 {
-			font-family: 'Open Sans', sans-serif;
-			text-transform: uppercase;
-			font-size: 25px;
-			font-weight: 600;
-			color: #fff;
-			padding: 20px 0; 
-		} 
+	.more-contact-big {
+		position: relative;
+		margin: 7% auto;
+		display: block; 
+		text-align: center;
+	}
+	/*кнопка закрытия окна*/
+	.more-contact-big a {
+		position: relative;
+		top: -13px;
+		left: 50%;
+	}
 
-		.private-list {
-			list-style-type: circle;
-			text-align: left;
-		}
+	.more-contact-big a img {
+		width: 4%;
+	}
+	/*кнопка закрытия окна*/		
 
-		.private-list li { 
-			font-size: 22px;
-			color:#fff;
-			padding-top: 15px;
-		}
+	.big-screen-form {
+		margin-top: 50px;
+	}
 
-		.private-list p {
-			font-family: 'Open Sans', sans-serif;
-			color: #fff;
-			font-size: 22px;
-		}
+	.private {
+		margin-top: 50px;
+		display: inline-block;
+	} 
 
-		.privat ul {
-			list-style-type: circle; 
-		}
+	.private h5 {
+		font-family: 'Open Sans', sans-serif;
+		text-transform: uppercase;
+		font-size: 25px;
+		font-weight: 600;
+		color: #fff;
+		padding: 20px 0; 
+	} 
 
-		.more-btn {
-			padding: 15px 70px;
-			border-radius: 5px;  
-		}
- 
+	.private-list {
+		list-style-type: circle;
+		text-align: left;
+	}
 
-		.more-contact-big form input[type="text"], 
-		input[type="tel"] {
-			width: 50%;
-			font-size: 20px;
-		}
+	.private-list li { 
+		font-size: 22px;
+		color:#fff;
+		padding-top: 15px;
+	}
 
-		input[type="submit"] {
-			font-size: 25px;
-			letter-spacing: 3px;
-		}
+	.private-list p {
+		font-family: 'Open Sans', sans-serif;
+		color: #fff;
+		font-size: 22px;
+	}
 
-		.modal-our-social-links {
-		margin-top: 20px;
-		
+	.privat ul {
+		list-style-type: circle; 
+	}
+
+	.more-btn {
+		padding: 15px 70px;
+		border-radius: 5px;  
+	}
+
+
+	.more-contact-big form input[type="text"], 
+	input[type="tel"] {
+		width: 50%;
+		font-size: 20px;
+	}
+
+	input[type="submit"] {
+		font-size: 25px;
+		letter-spacing: 3px;
+	}
+
+	.modal-our-social-links {
+	margin-top: 20px; 
 	}
 }
 

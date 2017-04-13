@@ -434,10 +434,25 @@
 
 
 	/*Всплывающие окна*/
-	.more-contact {
-		width: 200px;
-		border: none;
-		border-radius: none: 
+	.more-contact { 
+		width: 180px;
+		display: block;
+		margin: 10% auto;
+	}
+
+	.more-contact a {
+		position: relative;
+    	top: -25px;
+    	left: 105px;
+	}  
+
+	.more-contact input[type="text"], input[type="tel"] {
+		width: 80%;
+	}
+
+	.more-btn {
+		padding: 10px 20px;	 
+		font-size: 15px;
 	}
 
 	.thn {
@@ -857,8 +872,7 @@
 		margin-bottom: 15px;
 	}
 
-	strong {
-		
+	strong { 
 		display: inline;
 		font-size: 13px;
 	}
@@ -931,11 +945,26 @@
 
 
 	/*Всплывающие окна*/
-	.more-contact {
+	.more-contact { 
 		width: 200px;
 		border: none;
 		border-radius: none: 
 	}
+
+	.more-contact a { 
+    top: -20px;
+    left: 110px;
+	}
+
+	.more-contact input[type="text"],
+	input[type="tel"] {
+		width: 85%;
+	}
+
+	.more-btn {
+		padding: 10px 25px; 
+	}
+
 
 	.thn {
 		width: 280px;
@@ -1337,10 +1366,28 @@
 
 	/*Всплывающие окна*/
 	.more-contact {
-		width: 200px;
-		border: none;
-		border-radius: none: 
+		width: 250px; 
 	}
+
+	.more-contact a { 
+    	top: -20px;
+    	left: 135px;
+	}
+
+	.more-contact a img {
+		width: 8%;
+	}
+
+	.more-contact input[type="text"],
+	input[type="tel"] {
+		width: 85%;
+		font-size: 15px;
+	}
+
+	.more-btn {
+		padding: 10px 25px; 
+	}
+
 
 	.thn {
 		width: 280px;
@@ -1747,11 +1794,27 @@
 
 	/*Всплывающие окна*/
 	.more-contact {
-		width: 200px;
-		border: none;
-		border-radius: none: 
+		width: 300px; 
 	}
 
+	.more-contact a { 
+    	top: -20px;
+    	left: 155px;
+	} 
+	.more-contact a img {
+		width: 6%;
+	}
+
+	.more-contact input[type="text"],
+	input[type="tel"] {
+		width: 85%;
+		font-size: 15px;
+	}
+
+	.more-btn {
+		padding: 13px 30px; 
+	} 
+	
 	.thn {
 		width: 280px;
 	}
