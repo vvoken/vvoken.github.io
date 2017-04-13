@@ -1,9 +1,0 @@
-@font-face {
-	font-family: 'Wisdom Script';
-	src: url('../fonts/Wisdom-Script.eot');
-	src: url('../fonts/Wisdom-Script.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Wisdom-Script.woff') format('woff'),
-		url('../fonts/Wisdom-Script.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
