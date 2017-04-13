@@ -115,6 +115,15 @@ body {
 .more-btn:hover {
 	background-color: #e8ba1c;
 }
+	/*Для больших экранов*/
+	.services-big-size {
+		display: none;
+	}
+
+	/*Для маленьких и средних экранов*/
+	.item-ico {
+		display: block;
+	}
 
 .services {
 	padding-top: 120px;
@@ -211,6 +220,11 @@ body {
 
 .portfolio-ex {
 	margin-bottom: 100px;
+}
+
+/*for wide-screen sizes images*/
+.wide-size {
+	display: none;
 }
 
 /*Блок с отзывами*/
@@ -649,8 +663,8 @@ input[type="submit"] {
 }
 
 .copy span a:hover { 
-color: #2570a9; 
-	text-decoration: none;
+	color: #FED136; 
+	text-decoration: underline;
 }
 
 
@@ -825,5 +839,25 @@ label {
 	cursor: pointer;
 	text-transform: uppercase;
 	color: #fff; 
+}
+
+.private {
+	display: none;
+}
+
+.more-contact-big {
+	display: none;
+	 margin: 10% auto;
+	width: 45%;
+	height: auto; 
+	background: #aeaeae url(../img/map-bg.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	text-align: center;
+	padding: 30px;
+	box-shadow: 0 0 5px 2px rgba(255, 255, 255, 1);
+
 }
 

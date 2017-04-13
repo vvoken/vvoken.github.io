@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Golden - Web Design and marketing studio!</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/adaptive-settings.css">
-	<link rel="stylesheet" href="css/middle.css">
+	<link rel="stylesheet" href="css/animation.css"> 
+	<link rel="stylesheet" href="css/big-screen-version.css">
+	<link rel="stylesheet" href="css/small-medium-version.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script> 
@@ -52,17 +53,34 @@
 				<p class="block-desc">Proin iaculis purus consequat sem cure. </p>
 				<div class="services-items">
 					<div class="item">
-						<img src="img/icons/1.png" alt="">
+					<!-- Для больших экранов -->
+						<div class="services-big-size"><picture class="services-big-size">
+						 <source type="image/svg+xml" srcset="img/icons/big-size/svg/1.svg">
+						 <img src="img/icons/big-size/1.png" alt="">
+						</picture></div> 
+						<!-- для маленьких и средних экранов -->
+						<div class="item-ico"><img src="img/icons/1.png" alt=""></div>  
+						
 						<h3 class="item-header">E-Commerce</h3>
 						<p class="item-desc">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
 					</div>
 					<div class="item">
-						<img src="img/icons/2.png" alt="">
+					<div class="services-big-size">
+						<picture class="services-big-size">
+							 <source type="image/svg+xml" srcset="img/icons/big-size/svg/2.svg"> <img src="img/icons/big-size/2.png" alt="">
+						</picture>
+					</div>
+						<div class="item-ico"><img src="img/icons/2.png" alt=""></div>
 						<h3 class="item-header">Responsive Web</h3>
 						<p class="item-desc">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
 					</div>
 					<div class="item">
-						<img src="img/icons/3.png" alt="">
+					<div class="services-big-size">
+						<picture class="services-big-size">
+							 <source type="image/svg+xml" srcset="img/icons/big-size/svg/3.svg"> <img src="img/icons/big-size/3.png" alt="">
+						</picture>
+					</div>
+						<div class="item-ico"><img src="img/icons/3.png" alt=""></div>
 						<h3 class="item-header">Web Security</h3>
 						<p class="item-desc">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
 					</div>
@@ -77,6 +95,7 @@
 					<div class="examples">
 						<a href="#"><img src="img/portfolio/ebony-and-ivory.jpg"  alt=""></a>
 						<a href="#" class="big-size"><img src="img/portfolio/big/ebony-and-ivory.jpg"  alt=""></a>
+						<a href="#" class="wide-size"><img src="img/portfolio/wide/ebony-and-ivory.jpg"  alt=""></a>
 						<div class="ex-footer">
 							<h3 class="examples-header">Ebony &#38; Ivory</h3>
 							<p class="examples-desc">Branding</p>
@@ -85,6 +104,7 @@
 					<div class="examples">
 						<a href="#"><img src="img/portfolio/smart.jpg" alt=""></a>
 						<a href="#" class="big-size"><img src="img/portfolio/big/smart.jpg"  alt=""></a>
+						<a href="#" class="wide-size"><img src="img/portfolio/wide/smart.jpg"  alt=""></a>
 						<div class="ex-footer">
 							<h3 class="examples-header">Smart Stationary
 							</h3>
@@ -94,6 +114,7 @@
 					<div class="examples">
 						<a href="#"><img src="img/portfolio/clever-poster.jpg" alt=""></a>
 						<a href="#" class="big-size"><img src="img/portfolio/big/clever-poster.jpg"  alt=""></a>
+						<a href="#" class="wide-size"><img src="img/portfolio/wide/clever-poster.jpg"  alt=""></a>
 						<div class="ex-footer">
 							<h3 class="examples-header">Clever Poster
 							</h3>
@@ -103,14 +124,17 @@
 					<div class="examples">
 						<a href="#"><img src="img/portfolio/vinyl-record.jpg"  alt=""></a>
 						<a href="#" class="big-size"><img src="img/portfolio/big/vinyl-record.jpg"  alt=""></a>
+						<a href="#" class="wide-size"><img src="img/portfolio/wide/vinyl-record.jpg"  alt=""></a>
 						<div class="ex-footer">
 							<h3 class="examples-header">Vinyl Record</h3>
 							<p class="examples-desc">Product Mock-Up</p>
 						</div>
 					</div>
 					<div class="examples">
-						<a href="#"><img src="img/portfolio/burned-logo.jpg" alt=""></a>
-						<a href="#" class="big-size"><img src="img/portfolio/big/treehouse--template.jpg"  alt=""></a>
+						<a href="#"><img src="img/portfolio/treehouse-template.jpg" alt=""></a>
+						<a href="#" class="big-size">
+						<img src="img/portfolio/big/treehouse--template.jpg"  alt=""></a>
+						<a href="#" class="wide-size"><img src="img/portfolio/wide/treehouse-template.jpg"  alt=""></a>
 						<div class="ex-footer">
 							<h3 class="examples-header">Treehouse Template</h3>
 							<p class="examples-desc">Web Design</p>
@@ -119,6 +143,7 @@
 					<div class="examples">
 						<a href="#"><img src="img/portfolio/burned-logo.jpg" alt=""></a>
 						<a href="#" class="big-size"><img src="img/portfolio/big/burned-logo.jpg"  alt=""></a>
+						<a href="#" class="wide-size"><img src="img/portfolio/wide/burned-logo.png"  alt=""></a>
 						<div class="ex-footer">
 							<h3 class="examples-header">Burned Logo
 							</h3>
@@ -319,6 +344,29 @@
 					<input type="tel" id="phone-number" required maxlength="30" class="input-phone" placeholder="Yor phone">
 					<input type="submit" class="more-btn" value="call me"/> 
 				 </form>
+			</div>
+
+			<div class="more-contact-big">
+				<form action="#feedback-pop" class="big-screen-form">
+					<input type="text" required maxlength="30" class="input-name" placeholder="Yor name"> <br>
+					<input type="tel" required maxlength="30" class="input-phone" placeholder="Yor phone">
+					<br>
+					<input type="submit" class="more-btn" value="call me"/> 
+				</form>
+				<div class="private">
+					<h5>The main points of our payment policy are:</h5>
+					<ul class="private-list">
+						<li>
+							<p>We don't share your personal information with third parties.</p>
+						</li>
+						<li>
+							<p>We don't share your contact information without your consent.</p>
+						</li>
+						<li>
+							<p>You independently determine the amount of personal information disclosed.</p>
+						</li>
+					</ul>
+				</div> 
 			</div>
 	</div> 
 </div> 
