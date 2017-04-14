@@ -779,6 +779,10 @@ input[type="submit"] {
 	color: #fff;
 }
 
+.thn img {
+	width: 8%;
+}
+
 .line-before,
 .line-after {
 	margin: 0 auto;

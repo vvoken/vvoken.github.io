@@ -468,6 +468,10 @@
 		font-size: 18px;
 	}
 
+	.thn img {
+		width: 8%;
+	}
+
 	.modal-our-social-links {
 		padding-top: 30px;
 		width: 100%;
@@ -979,6 +983,10 @@
 		font-size: 18px;
 	}
 
+	.thn img {
+		width: 8%;
+	}
+
 	.modal-our-social-links {
 		padding-top: 30px;
 		width: 100%;
@@ -1402,6 +1410,11 @@
 		font-size: 18px;
 	}
 
+	.thn img {
+		padding-top: 2px;
+		width: 8%;
+	}
+
 	.modal-our-social-links {
 		padding-top: 30px;
 		width: 100%;
@@ -1815,8 +1828,9 @@
 		padding: 13px 30px; 
 	} 
 	
-	.thn {
-		width: 280px;
+	.thn {  
+		position: relative;
+		width: 330px;
 	}
 
 	.thn h2 {
@@ -1826,6 +1840,16 @@
 
 	.thn h3 {
 		font-size: 18px;
+	} 
+
+	.thn img {
+		width: 7%;
+	}
+
+	.thn .feedback-close {
+		position: relative;
+		top: -55px;
+		left: 140px;
 	}
 
 	.modal-our-social-links {
